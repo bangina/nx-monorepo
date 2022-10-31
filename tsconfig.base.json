@@ -14,7 +14,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/review/data-access-game": [
+        "libs/review/data-access-game/src/index.ts"
+      ],
+      "@monorepo/review/feature-details": [
+        "libs/review/feature-details/src/index.ts"
+      ],
+      "@monorepo/review/feature-list": [
+        "libs/review/feature-list/src/index.ts"
+      ],
+      "@monorepo/review/ui-tile": ["libs/review/ui-tile/src/index.ts"],
+      "@monorepo/review/util-formatter": [
+        "libs/review/util-formatter/src/index.ts"
+      ],
+      "@monorepo/share/assets": ["libs/share/assets/src/index.ts"],
+      "@monorepo/share/ui-tile": ["libs/share/ui-tile/src/index.ts"],
+      "@monorepo/ui-header": ["libs/ui-header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
